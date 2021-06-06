@@ -11,7 +11,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-md-12 pt-5">
                             <p class="@if(Auth::guest()) text-white @endif text-lead mt-3 mb-0 text-white">
-                                {{ __('Entre em contato com a G2X trading para obter acesso a esta ferramenta.') }}
+                                {{ __('Entre em contato com a G2X Trading para obter acesso a esta ferramenta.') }}
                             </p>
                         </div>
                     </div>
