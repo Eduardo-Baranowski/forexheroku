@@ -1,9 +1,10 @@
 @extends('layouts.app', [
     'class' => 'register-page',
-    'backgroundImagePath' => 'img/bg/jan-sendereks.jpg'
+    'backgroundImagePath' => 'img/bg/forex.jpeg'
 ])
 
 @section('content')
+    @if (Auth::user()->email == 'eduardobaranowski@gmail.com')
     <div class="content">
         <div class="container">
             <div class="row">
@@ -13,31 +14,31 @@
                             <i class="nc-icon nc-tv-2"></i>
                         </div>
                         <div class="description">
-                            <h5 class="info-title">{{ __('Marketing') }}</h5>
+                            <h5 class="info-title">{{ __('Área Reservada') }}</h5>
                             <p class="description">
-                                {{ __('We\'ve created the marketing campaign of the website. It was a very interesting collaboration.') }}
+                                {{ __('Tenha acesso a tendências de diferentes paridades para o mercado forex.') }}
                             </p>
                         </div>
                     </div>
                     <div class="info-area info-horizontal">
                         <div class="icon icon-primary">
-                            <i class="nc-icon nc-html5"></i>
+                            <i class="nc-icon nc-money-coins"></i>
                         </div>
                         <div class="description">
-                            <h5 class="info-title">{{ __('Fully Coded in HTML5') }}</h5>
+                            <h5 class="info-title">{{ __('Serviços') }}</h5>
                             <p class="description">
-                                {{ __('We\'ve developed the website with HTML5 and CSS3. The client has access to the code using GitHub.') }}
+                                {{ __('Você pode ter ainda mais acessos contratando nossos serviços.') }}
                             </p>
                         </div>
                     </div>
                     <div class="info-area info-horizontal">
                         <div class="icon icon-info">
-                            <i class="nc-icon nc-atom"></i>
+                            <i class="nc-icon nc-shop"></i>
                         </div>
                         <div class="description">
-                            <h5 class="info-title">{{ __('Built Audience') }}</h5>
+                            <h5 class="info-title">{{ __('Ferramentas') }}</h5>
                             <p class="description">
-                                {{ __('There is also a Fully Customizable CMS Admin Dashboard for this product.') }}
+                                {{ __('Disponibilizamos cursos e ferramentas de negociação.') }}
                             </p>
                         </div>
                     </div>
@@ -136,7 +137,14 @@
                 </div>
              </div>
         </div>
-     </div> 
+     </div>
+    @else
+        <div class="card card-body card-white">
+            <div class="card-header">
+                <h4 class="card-title">{{ __('Para se cadastrar entre em contato com o administrador do sistema!') }}</h4>
+            </div>
+        </div>
+    @endif
 @endsection
 
 @push('scripts')

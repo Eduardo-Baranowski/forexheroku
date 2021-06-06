@@ -8,7 +8,7 @@
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
             </div>
-            <a class="navbar-brand" href="#pablo">{{ __('Paper Dashboard') }}</a>
+            <a class="navbar-brand" href="/">{{ __('Forex') }}</a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
             aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,17 +17,58 @@
             <span class="navbar-toggler-bar navbar-kebab"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navigation">
-            <form>
-                <div class="input-group no-border">
-                    <input type="text" value="" class="form-control" placeholder="Search...">
-                    <div class="input-group-append">
-                        <div class="input-group-text">
-                            <i class="nc-icon nc-zoom-split"></i>
-                        </div>
-                    </div>
-                </div>
-            </form>
             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="{{ route('eurusd') }}" class="nav-link">
+                        {{ __('EURUSD') }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('usdjpy') }}" class="nav-link">
+                        {{ __('USDJPY') }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('usdcad') }}" class="nav-link">
+                        {{ __('USDCAD') }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('gbpusd') }}" class="nav-link">
+                        {{ __('GBPUSD') }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('usdchf') }}" class="nav-link">
+                        {{ __('USDCHF') }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('eurgbp') }}" class="nav-link">
+                        {{ __('EURGBP') }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('audusd') }}" class="nav-link">
+                        {{ __('AUDUSD') }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('nzdusd') }}" class="nav-link">
+                        {{ __('NZDUSD') }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('xauusd') }}" class="nav-link">
+                        {{ __('XAUUSD') }}
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="{{ route('register') }}" class="nav-link">
+                        {{ __('Register') }}
+                    </a>
+                </li>
+
                 <li class="nav-item">
                     <a class="nav-link btn-magnify" href="#pablo">
                         <i class="nc-icon nc-layout-11"></i>

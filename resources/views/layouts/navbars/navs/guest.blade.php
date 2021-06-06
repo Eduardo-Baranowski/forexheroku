@@ -62,18 +62,16 @@
                         {{ __('XAUUSD') }}
                     </a>
                 </li>
-                <!--
                 <li class="nav-item ">
-                    <a href="{{ route('register') }}" class="nav-link">
-                    <i class="nc-icon nc-book-bookmark"></i>{{ __('Register') }}
+                    <a href="{{ route('contato') }}" class="nav-link">
+                    {{ __('Contato') }}
                     </a>
                 </li>
                 <li class="nav-item  active ">
                     <a href="{{ route('login') }}" class="nav-link">
-                    <i class="nc-icon nc-tap-01"></i>{{ __('Login') }}
+                    {{ __('Login') }}
                     </a>
                 </li>
-                -->
             </ul>
         </div>
     </div>

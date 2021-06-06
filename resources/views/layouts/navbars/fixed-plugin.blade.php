@@ -4,57 +4,38 @@
             <i class="fa fa-cog fa-2x"> </i>
         </a>
         <ul class="dropdown-menu">
-            <li class="header-title"> Sidebar Background</li>
+            <li class="header-title"> Sites Recomendados</li>
             <li class="adjustments-line">
                 <a href="javascript:void(0)" class="switch-trigger background-color">
                     <div class="badge-colors text-center">
-                        <span class="badge filter badge-light active" data-color="white"></span>
-                        <span class="badge filter badge-dark" data-color="black"></span>
+                        <span class="badge filter badge-primary active" data-color="primary"></span>
+                        <span class="badge filter badge-info" data-color="blue"></span>
+                        <span class="badge filter badge-success" data-color="green"></span>
                     </div>
                     <div class="clearfix"></div>
                 </a>
             </li>
-            <li class="header-title"> Sidebar Active Color</li>
-            <li class="adjustments-line text-center">
-                <a href="javascript:void(0)" class="switch-trigger active-color">
-                    <span class="badge filter badge-primary" data-color="primary"></span>
-                    <span class="badge filter badge-info" data-color="info"></span>
-                    <span class="badge filter badge-success" data-color="success"></span>
-                    <span class="badge filter badge-warning" data-color="warning"></span>
-                    <span class="badge filter badge-danger active" data-color="danger"></span>
-                </a>
-            </li>
             <li class="button-container">
-                <a href="https://www.creative-tim.com/product/paper-dashboard-laravel" target="_blank"
-                    class="btn btn-primary btn-block btn-round">Download Now</a>
-            </li>
-            <li class="button-container">
-                <a href="https://paper-dashboard-laravel.creative-tim.com/docs/getting-started/laravel-setup.html"
-                    target="_blank" class="btn btn-outline-default btn-block btn-round">
-                    <i class="nc-icon nc-paper"></i> Documentation
+                <a href="http://g2xtrading.com/" target="_blank" class="btn btn-primary btn-block btn-round">G2X Trading</a>
+                <a href="https://www.metatrader5.com/pt" target="_blank" class="btn btn-default btn-block btn-round">
+                    Metatrader5
                 </a>
-            </li>
-            <li class="header-title">
-                Want more components?
-            </li>
-            <li class="button-container">
-                <a href="https://www.creative-tim.com/product/paper-dashboard-pro-laravel" target="_blank"
-                    class="btn btn-danger btn-block btn-round">
-                    Get Pro Version
+                <!--
+                <a href="https://chesstempo.com/" target="_blank" class="btn btn-danger btn-block btn-round">
+                    Chesstempo
                 </a>
+                -->
             </li>
-            <li class="header-title">Thank you for 95 shares!</li>
+            <!--
+            <li class="header-title">Outras Materiais!</li>
             <li class="button-container text-center">
-                <button id="twitter" class="btn btn-outline-default btn-round btn-sm"><i class="fa fa-twitter"></i>
-                    &middot; 45</button>
-                <button id="facebook" class="btn btn-outline-default btn-round btn-sm"><i class="fa fa-facebook-f"></i>
-                    &middot; 50</button>
+                <button onclick="window.open('https://www.metatrader5.com/pt')" id="metatrader5" class="btn btn-round btn-info">Metatrader5</button>
+                <button onclick="window.open('https://www.fide.com/')" id="fide" class="btn btn-round btn-info">FIDE</button>
+                <button onclick="window.open('http://chess24.com/')" id="chess24" class="btn btn-round btn-info">chess24</button>
                 <br>
                 <br>
-                <a class="github-button" href="https://github.com/creativetimofficial/paper-dashboard"
-                    data-icon="octicon-star" data-size="large" data-show-count="true"
-                    aria-label="Star ntkme/github-buttons on GitHub">Star</a>
             </li>
+            -->
         </ul>
     </div>
 </div>

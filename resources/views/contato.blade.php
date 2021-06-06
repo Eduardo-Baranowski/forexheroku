@@ -10,9 +10,8 @@
                 <div class="header-body text-center mb-7">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-md-12 pt-5">
-                            <h1 class="@if(Auth::guest()) text-white @endif text-white">{{ __('Bem vindo ao sistema de indicações de tendências para o mercado Forex.') }}</h1>
                             <p class="@if(Auth::guest()) text-white @endif text-lead mt-3 mb-0 text-white">
-                                {{ __('O mercado Forex além de ser o maior mercado do mundo pode ser utilizado por qualquer pessoa e de qualquer lugar.') }}
+                                {{ __('Entre em contato com a G2X trading para obter acesso a esta ferramenta.') }}
                             </p>
                         </div>
                     </div>
