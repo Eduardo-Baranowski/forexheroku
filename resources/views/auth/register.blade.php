@@ -4,7 +4,7 @@
 ])
 
 @section('content')
-    @if (Auth::user()->email == 'eduardobaranowski@gmail.com')
+    @if (Auth::user()->email == 'aumiguel.to@gmail.com')
     <div class="content">
         <div class="container">
             <div class="row">
